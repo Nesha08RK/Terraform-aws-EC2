@@ -1,0 +1,36 @@
+# Terraform working directory
+.terraform/
+
+
+
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate.*
+
+# Variable files (may contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# AWS credentials (extra safety)
+.aws/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
