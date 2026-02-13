@@ -45,3 +45,6 @@ terraform destroy
 
 ## Terraform destroy:
 ![Terraform destroy](screenshots/terraform-destroy.png)
+
+## AWS screenshot after terraform destroy
+![Terraform destroy](screenshots/Finally-AWS.png)
